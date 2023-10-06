@@ -11,7 +11,7 @@
       
     <!-- Aquí se desplegarán los productos -->
  
-      <div class="container"> <!-- Toda la parte de las secciones y barra-->
+      <div class="container"> <!-- Toda la parte de las secciones y barra ahhhhhhhhhhhhhhhhhhhhhhhhhhh-->
           <!-- Barra de navegación -->
         <div class="barralateral">
           <ul>
