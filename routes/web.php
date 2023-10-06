@@ -13,9 +13,20 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('plantilla');
-});
+
+Route::get('/images/logo.png', function () {
+    return asset('images/logo.png');
+})->name('logo.image');
+
+Route::get('/css/style.css', function () {
+    return asset('css/style.css');
+})->name('css');
+
+
+Route::get('/', 'HomeController@index')->name('home');
+
+
+
 
 Route::get('/', function () {
     return view('index');
@@ -24,4 +35,6 @@ Route::get('/', function () {
 Route::get('/', function () {
     return view('tienda');
 });
+
+
 
