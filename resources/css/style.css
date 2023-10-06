@@ -40,10 +40,12 @@ p{
 
 .cabezera
 {
-    padding: 100px;
-    width: 100%;
     border-collapse: collapse;
     background: color #d9c6b4;
+}
+
+.espacio{
+  height:200px;
 }
 
 .botones
